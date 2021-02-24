@@ -30,7 +30,7 @@
 
 ---
 
-[ [English](./README.md) | 简体中文 ]
+[ [English](./README.md) | 简体中文 | [Türkçe](./README_TR.md)
 
 ### Hub 的作用是什么?
 
@@ -51,9 +51,9 @@ Waymo, Red Cross, World Resources Institute, Omdena 和其他很多组织都在�
 
 ## 如何开始
 
-### 访问公共数据集. 超快
+### 以超快效率访问公共数据集.
 
-以前为了加载一个公共数据集，大家需要很多代码，浪费很多时间来访问和理解 API ，和下载数据。如果使用 Hub, 只需要2行代码， 您即可**在3分钟内开始工作**。
+以前为了加载一个公共数据集，大家需要很多代码，浪费很多时间来访问和理解 API 和下载数据。如果使用 Hub, 只需要2行代码， 您即可**在3分钟内开始工作**。
 
 ```sh
 pip3 install hub
@@ -72,7 +72,7 @@ mnist["image"][0:1000].compute()
 
 ### 训练模型
 
-加载数据并且**直接地**训练您的模型。Hub 已与 PyTorch 和 TensorFlow 整合，并且以通俗的方式进行格式转换。看看下面使用 PyTorch 的例子：
+您可以加载数据并且**直接地**训练您的模型。Hub 已与 PyTorch 和 TensorFlow 整合，并且以通俗的方式进行格式转换。看看下面使用 PyTorch 的例子：
 
 ```python
 from hub import Dataset
